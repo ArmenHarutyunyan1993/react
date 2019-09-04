@@ -10,7 +10,9 @@ const ProfileInfo = (props) => {
                 <img src="https://www.kirupa.com/developer/flash8/code/bgImage.jpg"/>
             </div>
             <div className="descriptionBlock">
-                Ava + description
+                <img src={props.profile.photos.large}/>
+                <p><b>Name : </b>{props.profile.fullName}</p>
+                <p><b>About : </b> {props.profile.aboutMe}</p>
             </div>
         </div>
     );
