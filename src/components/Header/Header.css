@@ -7,3 +7,25 @@
 .app-header img{
     width: 20px;
 }
+
+.loginBlock{
+    float: right;
+}
+
+.loginBlock>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color: #6aa9ff;
+    border-radius: 4px;
+    box-shadow: white 0px 3px 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.loginedUser{
+    margin-right: 10px;
+    color: white;
+}
